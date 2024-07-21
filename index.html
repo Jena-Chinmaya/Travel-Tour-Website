@@ -1,0 +1,348 @@
+<!doctype html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelus</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="css/bootstrap.css" rel="stylesheet"/>
+    <link href="css/hover.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="css/lightbox.css">
+    <link rel="stylesheet" href="css/logonew.css">
+    <link href="css/jquery.bxslider.css" rel="stylesheet" />
+</head>
+<body>
+
+<header class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"><img src="images/icon1.png">Travelus</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#"><b>Home</b></a></li>
+            <li class="nav-item"><a class="nav-link" href="#"><b>Destinations</b></a></li>
+            <li class="nav-item"><a class="nav-link" href="#"><b>Packages</b></a></li>
+            <li class="nav-item"><a class="nav-link" href="#"><b>Blog</b></a></li>
+            <li class="nav-item"><a class="nav-link" href="#"><b>About Us</b></a></li>
+            <li class="nav-item"><a class="nav-link" href="#"><b>Contact</b></a></li>
+        </ul>
+        <button class="btn btn-primary ml-3">Book Now</button>
+    </div>
+</header>
+
+<section id="heroCarousel" class="carousel slide hero text-center text-black" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="images/hero1.jpg" class="d-block w-100" alt="Hero Image 1">
+            <div class="carousel-caption d-none d-md-block">
+                <h1><strong>Discover Your Next Adventure</strong></h1>
+                <p><strong>Exclusive travel packages tailored just for you</strong></p>
+                <a href="#" class="btn btn-primary btn-lg">Explore Destinations</a>
+                <a href="#" class="btn btn-primary btn-lg">Get a Quote</a>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/hero2.jpg" class="d-block w-100" alt="Hero Image 2">
+            <div class="carousel-caption d-none d-md-block">
+                <h1><strong>Explore Beautiful Destinations</strong></h1>
+                <p><strong>Unforgettable experiences await</strong></p>
+                <a href="#" class="btn btn-primary btn-lg">Explore Destinations</a>
+                <a href="#" class="btn btn-primary btn-lg">Get a Quote</a>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/hero3.jpg" class="d-block w-100" alt="Hero Image 3">
+            <div class="carousel-caption d-none d-md-block">
+                <h1><strong>Your Journey Begins Here</strong></h1>
+                <p><strong>Book your dream vacation today</strong></p>
+                <a href="#" class="btn btn-primary btn-lg">Explore Destinations</a>
+                <a href="#" class="btn btn-primary btn-lg">Get a Quote</a>
+            </div>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</section>
+
+
+<section class="featured-destinations py-5">
+    <div class="container">
+        <h2 class="text-center mb-5"><b>Top Destinations</b></h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card custom-hover">
+                    <img src="images/d1.jpg" class="card-img-top" alt="Destination Image">
+                    <div class="card-body">
+                        <h3 class="card-title"><b>Dubai</b></h3>
+                        <p class="card-text">Discover the unparalleled charm of Dubai, where futuristic skyscrapers meet traditional markets and pristine beaches. Renowned for its luxurious lifestyle, iconic landmarks like the Burj Khalifa and Palm Jumeirah, world-class shopping at the Dubai Mall, and vibrant cultural experiences.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card custom-hover">
+                    <img src="images/d2.jpg" class="card-img-top" alt="Destination Image">
+                    <div class="card-body">
+                        <h3 class="card-title"><b>Paris</b></h3>
+                        <p class="card-text">Welcome to Paris, the City of Light! Renowned for its romantic ambiance, world-class cuisine, and rich history, Paris offers a unique blend of culture and elegance. Stroll along the charming streets, and visit iconic landmarks like the Eiffel Tower and Notre-Dame.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card custom-hover">
+                    <img src="images/d3.jpg" class="card-img-top" alt="Destination Image">
+                    <div class="card-body">
+                        <h3 class="card-title"><b>Goa</b></h3>
+                        <p class="card-text">Goa, a stunning coastal paradise in India, offers a perfect blend of sun, sand, and culture. Renowned for its pristine beaches, vibrant nightlife, and rich history, Goa is a haven for travelers seeking both relaxation and adventure. Dive into the crystal-clear waters and enjoy thrilling water sports.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="special-offers custom-bg-special-offers py-5">
+    <div class="container">
+        <h2 class="text-center mb-5"><b>Current Deals & Promotions</b></h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="image-container">
+                        <img src="images/offer1.jpg" class="card-img-top" alt="Offer Image">
+                        <div class="image-text">Varanasi</div>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title"><b>Special Offer</b></h3>
+                        <p class="card-text"><b>50% Discount</b></p>
+                        <button class="btn btn-primary">Book Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="image-container">
+                        <img src="images/offer2.jpg" class="card-img-top" alt="Offer Image">
+                        <div class="image-text">Red Fort</div>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title"><b>Special Offer</b></h3>
+                        <p class="card-text"><b>50% Discount</b></p>
+                        <button class="btn btn-primary">Book Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="image-container">
+                        <img src="images/offer3.jpg" class="card-img-top" alt="Offer Image">
+                        <div class="image-text">Amber Fort</div>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title"><b>Special Offer</b></h3>
+                        <p class="card-text"><b>50% Discount</b></p>
+                        <button class="btn btn-primary">Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="how-it-works py-5">
+    <div class="container">
+        <h2 class="text-center mb-5"><b>How It Works</b></h2>
+        <div class="row text-center">
+            <div class="col-md-3 mb-4">
+                <img src="images/icon1.png" class="mb-3" alt="Step Icon">
+                <h3><b>Step 1</b></h3>
+                <p><b>Choose Destination</b></p>
+            </div>
+            <div class="col-md-3 mb-4">
+                <img src="images/icon2.png" class="mb-3" alt="Step Icon">
+                <h3><b>Step 2</b></h3>
+                <p><b>Customize Package</b></p>
+            </div>
+            <div class="col-md-3 mb-4">
+                <img src="images/icon3.png" class="mb-3" alt="Step Icon">
+                <h3><b>Step 3</b></h3>
+                <p><b>Easy Booking</b></p>
+            </div>
+            <div class="col-md-3 mb-4">
+                <img src="images/icon4.png" class="mb-3" alt="Step Icon">
+                <h3><b>Step 4</b></h3>
+                <p><b>Enjoy Your Trip</b></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="customer-testimonials custom-bg-testimonials py-5">
+    <div class="container">
+        <h2 class="text-center mb-5"><b>What Our Customers Say</b></h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="text-center card-text"><b>"Great experience! The best vacation ever!"</b></p>
+                        <h3 class="text-center card-title">-John Franklin</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="text-center card-text"><b>"Everything was perfectly organized."</b></p>
+                        <h3 class="text-center card-title">-Vicky Johnson</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="text-center card-text"><b>"Amazing service and fantastic destinations."</b></p>
+                        <h3 class="text-center card-title">-Jessica Smith</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="why-choose-us py-5">
+    <div class="container">
+        <h2 class="text-center mb-5"><b>Why Travel With Us</b></h2>
+        <div class="row text-center">
+            <div class="col-md-3 mb-4">
+                <div class="card custom-hover">
+                    <div class="card-body">
+                        <h3><b>Personalized Itineraries</b></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card custom-hover">
+                    <div class="card-body">
+                        <h3><b>24/7 Customer Support</b></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card custom-hover">
+                    <div class="card-body">
+                        <h3><b>Best Price</b><br><b>Guarantee</b></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card custom-hover">
+                    <div class="card-body">
+                        <h3><b>Exclusive</b><br><b>Deals</b></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="newsletter-signup custom-bg-newsletter py-5 text-white">
+    <div class="container text-center">
+        <h2 class="mb-4"><b>Stay Updated</b></h2>
+        <p><b>Sign up for travel tips, news, and exclusive offers</b></p>
+        <form class="form-inline justify-content-center">
+            <input type="email" class="form-control mb-2 mr-sm-2" placeholder="Your email">
+            <button type="submit" class="btn btn-primary mb-2"><b>Subscribe</b></button>
+        </form>
+    </div>
+</section>
+
+<section class="logo-slider py-5">
+    <div class="container">
+        <h2 class="text-center mb-4"><b>Our Partners</b></h2>
+        <div class="slider">
+            <div class="slide-track">
+                <div class="slide"><img src="images/b1.png" alt="Logo 1"></div>
+                <div class="slide"><img src="images/b2.png" alt="Logo 2"></div>
+                <div class="slide"><img src="images/b3.png" alt="Logo 3"></div>
+                <div class="slide"><img src="images/b4.png" alt="Logo 4"></div>
+                <div class="slide"><img src="images/b1.png" alt="Logo 5"></div>
+                <div class="slide"><img src="images/b2.png" alt="Logo 6"></div>
+                <div class="slide"><img src="images/b3.png" alt="Logo 7"></div>
+                <div class="slide"><img src="images/b2.png" alt="Logo 8"></div>
+                <div class="slide"><img src="images/b1.png" alt="Logo 9"></div>
+                <div class="slide"><img src="images/b3.png" alt="Logo 10"></div>
+                <div class="slide"><img src="images/b2.png" alt="Logo 11"></div>
+                <div class="slide"><img src="images/b3.png" alt="Logo 12"></div>
+                <div class="slide"><img src="images/b2.png" alt="Logo 13"></div>
+                <div class="slide"><img src="images/b1.png" alt="Logo 14"></div>
+                <div class="slide"><img src="images/b3.png" alt="Logo 15"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="py-4 bg-dark text-white">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-md-3 mb-3">
+                <h5><b>Quick Links</b></h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white">Home</a></li>
+                    <li><a href="#" class="text-white">Destinations</a></li>
+                    <li><a href="#" class="text-white">Packages</a></li>
+                    <li><a href="#" class="text-white">Blog</a></li>
+                    <li><a href="#" class="text-white">About Us</a></li>
+                    <li><a href="#" class="text-white">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 mb-3">
+                <h5><b>Contact Info</b></h5>
+                <p>123 Travel Street, Bhubaneswar</p>
+                <p>Phone: +91-9438442125</p>
+                <p>Email: info@travelus.com</p>
+            </div>
+            <div class="col-md-3 mb-3">
+                <h5><b>Follow Us</b></h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white">Facebook</a></li>
+                    <li><a href="#" class="text-white">Twitter</a></li>
+                    <li><a href="#" class="text-white">Instagram</a></li>
+                    <li><a href="#" class="text-white">LinkedIn</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 mb-3">
+                <h5><b>Legal</b></h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white">Terms of Service</a></li>
+                    <li><a href="#" class="text-white">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="copy text-center py-3">
+        <div class="container">
+            <p>©2024 Travelus. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="scripts.js"></script>
+<script src="js/jquery.bxslider.js"></script>
+<script src="js/lightbox.js"></script>
+<script src="js/logonew.js"></script>
+
+</body>
+</html>
